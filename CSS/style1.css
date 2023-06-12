@@ -657,3 +657,22 @@ footer a {
 .btnsearch:hover{
     background-color: #574000;
 }
+
+
+@media screen and (max-width: 600px) {
+    .card {
+        display: none;
+        margin-top: 1rem !important;
+    }
+
+    .card-body {
+        padding: 0rem 4rem 0 4rem;
+        margin-top: -5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main video {
+        height: 70%;
+    }
+}
