@@ -666,12 +666,16 @@ footer a {
     }
 
     .card-body {
-        padding: 0rem 4rem 0 4rem;
-        margin-top: -5rem;
+        padding: 1rem 3rem !important;
+        margin-top: -5rem !important;
+    }
+
+    .hey {
+        margin-top: -5rem !important;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 667px) {
     .main video {
         height: 70%;
     }
